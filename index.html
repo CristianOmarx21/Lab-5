@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lab 5 - Calculos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="Encabezado"></header>
+
+    <main class="contenedor">
+
+        <section class="tarjeta">
+            <h2 id="titulo">LAB 5 - CALCULADOR DE NUMEROIS</h2>
+        </section>
+
+        <!-- EJERCICIO 1: SUMA DE TRES VALORES -->
+        <div class="contenedor-suma">
+
+            <h2>1. Suma de tres valores</h2>
+            <p>Ingrese tres números para sumarlos.</p>
+
+            <input type="number" id="numero1" placeholder="Primer número">
+            <input type="number" id="numero2" placeholder="Segundo número">
+            <input type="number" id="numero3" placeholder="Tercer número">
+
+            <button onclick="sumar()">Calcular suma</button>
+
+            <h3 id="resultadoSuma"></h3>
+
+        </div>
+
+        <!-- EJERCICIO 2: CUADRADO DE UN NÚMERO -->
+        <div class="contenedor-resta">
+
+            <h2>2. Cuadrado de un número</h2>
+            <p>Ingrese un número para calcular su cuadrado.</p>
+
+            <input type="number" id="numeroCuadrado" placeholder="Ingrese un número">
+
+            <button onclick="calcularCuadrado()">Calcular cuadrado</button>
+
+            <h3 id="resultadoCuadrado"></h3>
+
+        </div>
+
+        <!-- EJERCICIO 3: PROMEDIO DE CALIFICACIONES -->
+        <div class="contenedor-multiplicación">
+
+            <h2>3. Promedio de calificaciones</h2>
+            <p>Ingrese el nombre del estudiante y sus tres calificaciones.</p>
+
+            <input type="text" id="nombre" placeholder="Nombre del estudiante">
+
+            <input type="number" id="nota1" placeholder="Primera calificación" step="any">
+            <input type="number" id="nota2" placeholder="Segunda calificación" step="any">
+            <input type="number" id="nota3" placeholder="Tercera calificación" step="any">
+
+            <button onclick="calcularPromedio()">Calcular promedio</button>
+
+            <h3 id="resultadoPromedio"></h3>
+
+        </div>
+
+        <!-- EJERCICIO 4: CONVERSIÓN DE METROS -->
+        <div class="contenedor-división">
+
+            <h2>4. Conversión de unidades (metros)</h2>
+            <p>Ingrese una cantidad en metros.</p>
+
+            <input type="number" id="metros" placeholder="Cantidad en metros" step="any">
+
+            <button onclick="convertirMetros()">Convertir</button>
+
+            <h3 id="resultadoConversion"></h3>
+
+        </div>
+
+        <!-- EJERCICIO 5: COMPARACIÓN DE DOS VALORES -->
+        <div class="contenedor-comparacion">
+
+            <h2>5. Comparación de dos valores</h2>
+            <p>Ingrese dos números para compararlos.</p>
+
+            <input type="number" id="valor1" placeholder="Primer número">
+            <input type="number" id="valor2" placeholder="Segundo número">
+
+            <button onclick="compararValores()">Comparar valores</button>
+
+            <h3 id="resultadoComparacion"></h3>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

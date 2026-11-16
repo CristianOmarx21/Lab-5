@@ -1,0 +1,53 @@
+.contenedor-suma,
+.contenedor-resta,
+.contenedor-multiplicación,
+.contenedor-división,
+.contenedor-comparacion {
+
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+
+}
+
+.tarjeta {
+
+    background-color: rgb(101, 172, 230);
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: rgb(101, 172, 230);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(65, 140, 200);
+}
+
+h3 {
+    color: #333;
+}
+
+#titulo {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
